@@ -1,0 +1,39 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.temperature {
+  font-size: 72px;
+  color: #132743;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 10px;
+}
+
+.unit {
+  font-size: 36px;
+}
+
+.day {
+  font-size: 24px;
+  color: #45171d;
+  font-family: "Work Sans", sans-serif;
+}
+
+.condition {
+  font-size: 36px;
+  color: #45171d;
+  font-family: "Work Sans", sans-serif;
+}
+
+.city {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 20px; 
+}
