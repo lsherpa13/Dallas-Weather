@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="temperature">27<span class="unit">°C</span></h1>
+      <p class="day">Sunday</p>
+      <p class="condition">Sunny ☀️</p>
+      <h4 class="city">Dallas</h4>
+
+      <form id="city-form">
+        <input
+          class="form-control"
+          type="text"
+          placeholder="Enter City"
+          id="city-input"
+        />
+        <button class="current-button">Current</button>
+      </form>
+
+      <div class="card text-center">
+        <div class="card-header">
+          <ul class="nav nav-pills card-header-pills">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Humidity</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Wind</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">UV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Pressure</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Dew point</a>
+            </li>
+          </ul>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">90°</h5>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-2">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Monday</h5>
+              <p class="card-text">31°</p>
+              <p class="card-text">
+                <small class="text-muted">Partly sunny 🌤️</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Tuesday</h5>
+              <p class="card-text">32°</p>
+              <p class="card-text">
+                <small class="text-muted">Partly sunny ⛅️</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Wednesday</h5>
+              <p class="card-text">31°</p>
+              <p class="card-text">
+                <small class="text-muted">Rainy 🌧️</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Thursday</h5>
+              <p class="card-text">32°</p>
+              <p class="card-text">
+                <small class="text-muted">Sunny ☀️</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Friday</h5>
+              <p class="card-text">32°</p>
+              <p class="card-text">
+                <small class="text-muted">Cloudy 🌩️</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Saturday</h5>
+              <p class="card-text">32°</p>
+              <p class="card-text">
+                <small class="text-muted">Sunny ☀️</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
